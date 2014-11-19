@@ -10,8 +10,12 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <div class = "text-center">
+      <%= link_to 'Home', index_path %>
+      <a href= "https://www.youtube.com/watch?v=HNTxr2NJHa0"> Youtube </a>
     <div class="container text-center">
       <%= yield %>
+    </div>
     </div>
   </body>
 </html>
